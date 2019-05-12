@@ -1,12 +1,12 @@
 import { TestBed } from '@angular/core/testing';
 
-import { WebsocketService } from './websocket.service';
+import { UsuariosGuardService } from './usuarios-guard.service';
 
-describe('WebsocketService', () => {
+describe('UsuariosGuardService', () => {
   beforeEach(() => TestBed.configureTestingModule({}));
 
   it('should be created', () => {
-    const service: WebsocketService = TestBed.get(WebsocketService);
+    const service: UsuariosGuardService = TestBed.get(UsuariosGuardService);
     expect(service).toBeTruthy();
   });
 });
