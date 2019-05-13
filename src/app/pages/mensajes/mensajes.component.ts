@@ -14,4 +14,9 @@ export class MensajesComponent implements OnInit {
   ngOnInit() {
   }
 
+
+  salir() {
+    this._wService.logoutWS();
+  }
+
 }
